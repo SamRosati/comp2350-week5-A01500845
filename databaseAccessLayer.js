@@ -3,7 +3,7 @@ const database = include('/databaseConnection');
 
 async function getAllUsers() {
 	let sqlQuery = `
-		SELECT WEB_USER_ID, FIRST_NAME, LAST_NAME, EMAIL
+		SELECT web_user_id, first_name, last_name, email
 		FROM web_user
 	`;
 	
